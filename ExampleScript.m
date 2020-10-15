@@ -2,14 +2,14 @@
 
 
 % path to cpp file
-CppDir = 'C:\Users\u0088756\Documents\FWO\Software\GitProjects\CreateDll_PredSim';
-Name = 'Example_CreateDLL';
+CppDir = 'C:\opensim-ad\opensim-ad-core\OpenSim\External_Functions\PredSim';
+Name = 'PredSim';
 
 % additional path information
 OsimSource = 'C:\opensim-ad-core-source';
-OsimBuild = 'C:\opensim-ad-core-build2';
-DllPath = 'C:\Users\u0088756\Documents\FWO\Software\ExoSim\SimExo_3D\3dpredictsim\ExternalFunctions';
-ExtFuncs = 'C:\opensim-ExternalFunc';
+OsimBuild = 'C:\opensim-ad\opensim-ad-core-build';
+DllPath = 'C:\opensim-ad\opensim-ad-core-build\OpenSim\External_Functions\PredSim';
+ExtFuncs = 'C:\opensim-ad\opensim-ad-core-build\OpenSim\External_Functions';
 VSinstall = 'C:\Program Files (x86)\Microsoft Visual Studio 14.0';
 
 % number of input arguments for external function

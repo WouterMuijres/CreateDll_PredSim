@@ -37,7 +37,7 @@ if ~exist(fullfile(DllPath,[Name '.dll']),'file')
     copyfile(fullfile(CppDir,[Name '.cpp']),fullfile(ExtFuncPath,[Name '.cpp']));
     
     % add the project to the current cmakelist of the the external projects
-    CmakeFile = fullfile(OsimSource,'OpenSim\External_Functions','CMakeLists.txt');
+    CmakeFile = fullfile(OsimSource,'OpenSim\External_Functions',Name,'CMakeLists.txt');
     ListExtFunc = importdata(CmakeFile);
     delete(CmakeFile);
     fid = fopen(fullfile(OsimSource,'OpenSim\External_Functions','CMakeLists.txt'),'wt');
